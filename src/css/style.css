@@ -1,0 +1,53 @@
+@font-face {
+    font-family: SourceFont;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+body {
+    font-family: SourceFont, sans-serif;
+    background-color: #1a202c;
+    margin: 0;
+}
+
+.nav {
+    background-color: #1d2f5a;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-left: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.generateButton {
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    color: #f3f3f3;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: SourceFont, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #89b3ff;
+}
+
+.generateButton:hover {
+    background-color: #89b3ff;
+    color: #1a1a1a;
+    font-weight: bold;
+}
